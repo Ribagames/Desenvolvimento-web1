@@ -1,3 +1,42 @@
+header {
+   display: flex;
+   align-items: center;
+   padding: 25px 40px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.753); ;
+}
+header button:first-of-type {
+    margin-left: auto
+}
+header button {
+    margin-right: 15px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border: 2px solid rgb(16, 163, 2);
+    color: rgb(158, 155, 0);
+    background-color: rgba(223, 231, 243, 0.123);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+header button:hover {
+    background-color:aliceblue;
+    color:rgba(255, 251, 0, 0.678);
+    transform: translatey(-2px);
+}
+
+main button {
+    margin: 100px auto 1000px auto;
+    font-size: 1rem;
+    border: 2px solid rgb(16, 163, 2);
+    color: rgb(158, 155, 0);
+    background-color: rgb(223, 231, 243);
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    align-self: center;
+    height: 100px;
+    width: 150px;
+}
+
 body {
  background-image: url(main.jpg);
  background-size: cover;
